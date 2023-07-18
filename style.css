@@ -10,9 +10,11 @@ body {
 }
 
 .main-area {
-    margin: 50px 450px;
+    margin: 50px 500px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    height: 80vh;
+    height: 740px;
+    width: 420px;
+    text-align: center;
 }
 
 header {
@@ -20,7 +22,7 @@ header {
 }
 
 header img {
-    margin: 50px 0 10px 300px;
+    margin: 20px 0 5px 245px;
 }
 
 h1 {
@@ -30,7 +32,9 @@ h1 {
 .row {
     display: flex;
     justify-content: space-between;
-    margin: 10px 30px;
+    margin: 10px 50px;
+    border-bottom: .5px dotted;
+    padding: 15px 0;
 }
 
 p {
@@ -44,7 +48,51 @@ p {
 .value {
     font-size: 13px;
 }
+.container2 {
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: rgba(213, 203, 203, 0.329)
+}
 
-.container img {
-    margin-top: 150px;
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+    padding: 5px 0;
+}
+
+
+.row2 p {
+    align-items: flex-start;
+}
+
+.row2 .title {
+    font-size: 15px;
+}
+
+.row2 .value {
+    font-size: 15px;
+}
+
+footer {
+    /* margin-top: 120px; */
+    background: green;
+    padding: 30px 0;
+    display: flex;
+    padding-left: 120px;
+}
+
+footer img {
+    /* color: #fff; */
+}
+
+footer span {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+footer span a {
+    text-decoration: none;
+    color: #000;
 }
